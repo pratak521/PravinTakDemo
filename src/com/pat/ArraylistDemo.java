@@ -15,7 +15,7 @@ public class ArraylistDemo {
 			System.out.println("Enter the number");
 			al.add(scan.nextInt());
 		}
-		al.forEach(n->System.out.println(n));
+		al.forEach(n->{if(n>10)System.out.println(n);});
 		System.out.println(al);
 	
 	}
